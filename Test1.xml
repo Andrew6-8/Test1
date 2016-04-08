@@ -19,5 +19,12 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="oled_cleardisplay" id="86">
+        <next>
+          <block type="movement_stop" id="77"></block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
