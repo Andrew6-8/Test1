@@ -7,16 +7,12 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="oled_cleardisplay" id="3">
-        <next>
-          <block type="oled_drawnumber" id="4" inline="true">
-            <value name="NUMBER">
-              <block type="sensor_spectrometer" id="5">
-                <field name="LIGHT">GREEN</field>
-              </block>
-            </value>
+      <block type="oled_drawnumber" id="4" inline="true">
+        <value name="NUMBER">
+          <block type="sensor_spectrometer" id="5">
+            <field name="LIGHT">GREEN</field>
           </block>
-        </next>
+        </value>
       </block>
     </statement>
     <next>
